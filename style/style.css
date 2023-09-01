@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+    
+  header {
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 10px;
+  
+  }
+  header h1{
+    font-size: 20px;
+  }
+  
+  nav{
+    display:flex;
+    align-items:center;
+    column-gap:10px;
+    font-size: 10px;
+    
+  }
+  /*styling my navigation list*/
+  nav ul{
+    display:flex;
+    align-items:center;
+    column-gap:15px;
+    padding-right: 30px;
+    border-right: 2px solid gray;
+  }
+  nav ul li{
+    list-style:none;
+    line-height: 28px;
+    
+    
+  }
+  
+  nav .contact{
+    display:flex;
+    align-items:center;
+    
+  }
+  .contact{
+    padding-left: 10px;
+    gap:9px;
+  }
+
+
+/*container styling */
+main{
+    height: 93vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+/*styling the parent */
+ main .parent{
+    height: 80%;
+    width:100%;
+    display: flex;   
+}
+main .parent .child-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .parent .child-text .info{
+    width: 80%;
+}
+
+main .parent .child-text .info h1{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+ button{
+    color:  white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #FF6433;
+    font-size: 8px;
+    margin-bottom: 20px;
+    border: 0;
+ }
+
+ .parent .child-text .info .child-text-icon-text{
+    display: flex;
+    gap: 10px;
+ }
+ .parent .child-text .info .child-text-icon-text .text .open{
+    font-size: 10px;
+    color:grey;
+ }  
+
+ .parent .child-text .info .child-text-icon-text .text .day{
+    font-size: 13px;
+ }
+
+
+
+
+
+
+
+/*image part styling */
+main .parent .child-image{
+    width: 50%;
+    height: 100%;
+    background-image: url('/img/Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+main .parent .child-image .service{
+    width: 70%;
+    position: absolute;
+    top: 0;
+    left: -21%;
+} 
+main .parent .child-image .rating{
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    right: -20%;
+}
