@@ -1,19 +1,35 @@
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500&display=swap');
+
+
+
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: 'Manrope', sans-serif;
   }
     
-  header {
-    width:80%;
-    margin:auto;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:10px 10px;
-  
+  header{
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    position: fixed;
   }
-  header h1{
+#header .container{
+  width:80%;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px 0;
+  background-color: white;
+
+}
+
+  header logo{
     font-size: 20px;
   }
   
@@ -30,12 +46,13 @@
     align-items:center;
     column-gap:15px;
     padding-right: 30px;
+    padding: 5px 20px 5px 0;
     border-right: 2px solid gray;
   }
   nav ul li{
     list-style:none;
     line-height: 28px;
-    
+    font-family: 'Playfair Display', serif;
     
   }
   
@@ -44,62 +61,87 @@
     align-items:center;
     
   }
+
+
   .contact{
     padding-left: 10px;
     gap:9px;
   }
 
+.contact .contact-image{
+  background-color: #61C3A1;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* end of  nav styling */
 
-/*container styling */
-main{
-    height: 93vh;
-    width: 80%;
+
+/*global  styling  */
+.grand-parent{
+    height: 100vh;
+    width: 100%;
     margin: auto;
     display: flex;
-    align-items: center;
+    align-items: center; 
+    justify-content: center;
 }
 
-/*styling the parent */
- main .parent{
+
+  .parent{
     height: 80%;
-    width:100%;
-    display: flex;   
-}
-main .parent .child-text{
+    width:80%;
+    display: flex;
+      
+  }
+ .child-text{
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
 }
 
-main .parent .child-text .info{
+.butn{
+  color:  white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: #FF6433;
+  font-size: 8px;
+  border: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.open{
+  font-size: 10px;
+  color:grey;
+}  
+ 
+/* end of global styling */
+
+
+.grand-parent .parent .child-text .info{
     width: 80%;
 }
 
-main .parent .child-text .info h1{
-    font-size: 50px;
+.grand-parent .parent .child-text .info h1{
+    font-size: 40px;
     padding-bottom: 15px;
 }
 
- button{
-    color:  white;
-    padding: 10px 15px;
-    border-radius: 8px;
-    background-color: #FF6433;
-    font-size: 8px;
-    margin-bottom: 20px;
-    border: 0;
- }
+
 
  .parent .child-text .info .child-text-icon-text{
     display: flex;
     gap: 10px;
  }
- .parent .child-text .info .child-text-icon-text .text .open{
-    font-size: 10px;
-    color:grey;
- }  
+ 
 
  .parent .child-text .info .child-text-icon-text .text .day{
     font-size: 13px;
@@ -133,3 +175,237 @@ main .parent .child-image .rating{
     bottom: 0;
     right: -20%;
 }
+   
+
+/* car service section  */
+#car {
+  background-color: #E2E6E9;
+  
+
+}
+
+#car .car-service {
+  width:50%;
+  
+  
+}
+#car .parent .car-service h1{
+  padding-bottom:20px;
+  font-size:40px;
+}
+#car .car-service .con-serve{
+  display:flex;
+  column-gap:10px;
+  padding:12px 0px;
+ }
+
+ #car .car-service .con-serve p{
+  font-size:10px;
+ }
+ #car .car-service .con-serve #icon{
+  background-color: white;
+  border-radius: 50px;
+ }
+ #car .car-service .more-about-text{
+  display: flex;
+  gap: 20px;
+ }
+
+
+#car .parent .car-qoute {
+ 
+  width: 50%;
+  height: 100%;
+  
+
+}
+#car .parent .car-qoute h1{
+  padding-bottom:20px;
+  font-size: 35px;
+ 
+
+
+} 
+  
+form{
+  display:flex;
+  flex-direction:column;
+  padding-bottom: 20px;
+  gap: 2px;
+}
+
+form input{
+  border: none;
+  width: 70%;
+  height: 35px;
+}
+ input::placeholder{
+  font-size: 9px;  
+} 
+
+/* process to help styling */
+#help .parent .gbg{
+  margin-top: 20px;
+  width: 50%;
+}
+ #help .gbg  .get
+{
+  margin-top: 20px;
+  display: flex;
+  gap: 7px;
+  
+  
+}
+
+#help .gbg .get .number
+{
+  display: flex;
+}
+#help .gbg .get .number h4{
+  padding: 16px 3px 5px 12px;
+}
+#help .gbg .get .qoute .through{
+ 
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+#help .gbg .get .qoute .through img{
+  margin-left: 20px;
+}
+#help .gbg .get .qoute .through .last {
+ padding-left: 60px; 
+
+}
+
+ 
+#help .gbg .get h4{
+  padding-top: 7px;
+  
+}
+#help .gbg .get p{ 
+  font-size: 12px;
+  color: #1E1B1B;
+    
+}
+
+
+
+
+
+
+#offer{
+background-color: #E2E6E9;
+}
+#offer .content{
+  text-align: center;
+  width: 100%;
+}
+
+#offer .content .offer-cards{
+display: flex;
+flex-wrap: wrap;
+gap: 5px;
+justify-content: center;
+margin-top: 10px;
+/* padding-top: 20px; */
+
+
+}
+
+#offer .content .offer-cards .card{
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    gap: 20px;
+}
+#offer .content .offer-cards  .wheel-repair{
+  background-color: #FF6433;
+  color: white;
+}
+#offer .content  .learn{
+  display: flex; 
+  gap: 7px;
+  margin: 20px;
+  justify-content: flex-end;
+}
+
+
+#get-in-touch {
+  height: 70vh;
+  width: 100%;
+  background-color: #E2E6E9;
+}
+
+#get-in-touch .first-row {
+  height: 75%;
+  width: 100%;
+  display: flex;
+}
+
+#get-in-touch .first-row .left-car {
+  width: 50%;
+  height: 100%;
+  background-image:url('../img/car-left.png') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ #get-in-touch .first-row .left-car .left-car-card {
+  height: 100%;
+  width: 70%;
+  background-color: #ff6433;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px; 
+}
+
+#get-in-touch .first-row .left-car .left-car-card .write-up #card-butn{
+background-color: #1E1B1B;
+
+
+}
+
+#get-in-touch  .right-car {
+  width: 50%;
+  height: 100%;
+  background-image: url('../img/car-right.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#get-in-touch .second-row .context{
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#get-in-touch .second-row .context  {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+#get-in-touch .second-row .context .one{
+  margin: auto;
+}
+
+#get-in-touch .second-row .context .one h1{
+  color: #661CE7;
+
+}
+
+  
