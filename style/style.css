@@ -110,7 +110,7 @@
 h1{ 
   font-size: 40px;
   padding-bottom: 15px;
-  width: 100%;
+  
 }
 
 
@@ -192,9 +192,10 @@ main .parent .child-image .rating{
   
   
 }
-#car .parent .car-service h1{
-  width: 80%;
-}
+/* #car .parent .car-service h1{
+  padding-bottom:20px;
+  font-size:40px;
+} */
 #car .car-service .con-serve{
   display:flex;
   column-gap:10px;
@@ -202,7 +203,6 @@ main .parent .child-image .rating{
  }
 
  #car .car-service .con-serve p{
-  width: 51%;
   font-size:10px;
  }
  #car .car-service .con-serve #icon{
@@ -288,7 +288,6 @@ form input{
   
 }
 #help .gbg .get p{ 
-  
   font-size: 12px;
   color: #1E1B1B;
     
