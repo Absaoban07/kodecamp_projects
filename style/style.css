@@ -109,7 +109,7 @@
 }
 
 h1{ 
-  font-size: 40px;
+  font-size: 35px;
   padding-bottom: 20px;
   
 }
@@ -133,12 +133,6 @@ h1{
 }  
  
 /* end of global styling */
-
-
-.grand-parent .parent .child-text .info h1{
-    width: %;
-}
-
 
 
  .parent .child-text .info .child-text-icon-text{
