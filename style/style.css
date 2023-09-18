@@ -96,7 +96,8 @@
     height: 80%;
     width:80%;
     display: flex;
-      
+    /* gap: 20px;
+       */
   }
  .child-text{
     width: 50%;
@@ -134,7 +135,7 @@ h1{
 /* end of global styling */
 
 
-.grand-parent .parent .child-text .info{
+.grand-parent .parent .child-text .info h1{
     width: 80%;
 }
 
@@ -192,18 +193,20 @@ main .parent .child-image .rating{
   
   
 }
-/* #car .parent .car-service h1{
-  padding-bottom:20px;
-  font-size:40px;
-} */
+
+#car .parent .car-service h1{
+  width: 75%;
+}
 #car .car-service .con-serve{
   display:flex;
   column-gap:10px;
   padding:12px 0px;
+  width: 41%;
  }
 
  #car .car-service .con-serve p{
   font-size:10px;
+ 
  }
  #car .car-service .con-serve #icon{
   background-color: white;
@@ -211,8 +214,10 @@ main .parent .child-image .rating{
  }
  #car .car-service .more-about-text{
   display: flex;
-  gap: 20px;
+  gap: 15px;
+  padding: 23px 0 0 30px;
  }
+
 
 
 #car .parent .car-qoute {
@@ -231,6 +236,7 @@ main .parent .child-image .rating{
 } 
   
 form{
+  margin-top: 10px;
   display:flex;
   flex-direction:column;
   padding-bottom: 20px;
@@ -245,10 +251,16 @@ form input{
  input::placeholder{
   font-size: 9px;  
 } 
+#help .parent .help-process{
+  height: 90%;
+}
+#help .parent .help-process h1{
+  width:80%;
+}
 
 /* process to help styling */
 #help .parent .gbg{
-  margin-top: 20px;
+
   width: 50%;
 }
  #help .gbg  .get
@@ -256,7 +268,6 @@ form input{
   margin-top: 20px;
   display: flex;
   gap: 7px;
-  
   
 }
 
@@ -268,7 +279,7 @@ form input{
   padding: 16px 3px 5px 12px;
 }
 #help .gbg .get .qoute .through{
- 
+ width: 55%;
   gap: 40px;
   display: flex;
   justify-content: center;
@@ -305,7 +316,10 @@ background-color: #E2E6E9;
   text-align: center;
   width: 100%;
 }
-
+#offer .content h1{
+  width: 64%;
+  margin: auto;
+}
 #offer .content .offer-cards{
 display: flex;
 flex-wrap: wrap;
@@ -319,8 +333,8 @@ margin-top: 10px;
 
 #offer .content .offer-cards .card{
   background-color: white;
-  height: 200px;
-  width: 250px;
+  height: 150px;
+  width: 200px;
   display: flex;
     flex-direction: column;
     justify-content: center; /* Center horizontally */
@@ -332,6 +346,7 @@ margin-top: 10px;
   color: white;
 }
 #offer .content  .learn{
+  width: 89%;
   display: flex; 
   gap: 7px;
   margin: 20px;
@@ -375,6 +390,7 @@ margin-top: 10px;
 #get-in-touch .first-row .left-car .left-car-card .write-up h1{
   color:#FFFFFF;
   font-size: 30px;
+  width: 110%;
 }
 
 #get-in-touch .first-row .left-car .left-car-card .write-up #card-butn{
@@ -392,16 +408,18 @@ background-color: #1E1B1B;
   background-size: cover;
 }
 
-#get-in-touch .second-row .context{
+/* #get-in-touch .second-row .context{
   height: 25%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-#get-in-touch .second-row .context  {
+#get-in-touch .second-row .context {
+  height: 25%;
   width: 80%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -412,6 +430,7 @@ background-color: #1E1B1B;
 }
 
 #get-in-touch .second-row .context .one h1{
+  padding-bottom: 0%;
   color: #661CE7;
 
 }
