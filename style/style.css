@@ -133,7 +133,9 @@ h1{
 }  
  
 /* end of global styling */
-
+.parent .child-text .info h1{
+  width: 50%;
+}
 
  .parent .child-text .info .child-text-icon-text{
     display: flex;
