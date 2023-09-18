@@ -30,13 +30,13 @@
 }
 
   header logo{
-    font-size: 20px;
+    font-size: 15px;
   }
   
   nav{
     display:flex;
     align-items:center;
-    column-gap:10px;
+    column-gap:20px;
     font-size: 10px;
     
   }
@@ -109,7 +109,7 @@
 
 h1{ 
   font-size: 40px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   
 }
 
