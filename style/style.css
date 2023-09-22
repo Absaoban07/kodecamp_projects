@@ -176,6 +176,11 @@ main .parent .child-image .rating{
     position: absolute;
     bottom: 0;
     right: -20%;
+
+
+
+
+
 }
    
 
@@ -227,7 +232,8 @@ main .parent .child-image .rating{
 }
 #car .parent .car-qoute h1{
   padding-bottom:20px;
-  font-size: 35px;
+  font-size: 40px;
+  width: 85%;
  
 
 
@@ -248,15 +254,24 @@ form input{
 }
  input::placeholder{
   font-size: 9px;  
-} 
+}
+
+
+
+
+/* process to help styling */
+
 #help .parent .help-process{
   height: 90%;
 }
 #help .parent .help-process h1{
   width:80%;
 }
+#help .parent .help-process p{
+  width:48%;
+}
 
-/* process to help styling */
+
 #help .parent .gbg{
 
   width: 50%;
@@ -305,7 +320,7 @@ form input{
 
 
 
-
+/* WHAT WE OFFER STYLING */
 
 #offer{
 background-color: #E2E6E9;
@@ -350,6 +365,8 @@ margin-top: 10px;
   margin: 20px;
   justify-content: flex-end;
 }
+
+
 
 /* get in touch styling*/
 #get-in-touch {
@@ -426,4 +443,194 @@ background-color: #1E1B1B;
 
 }
 
+/*for mobile */
+ @media screen and (max-width: 425px)
+{
+  #header{
+    position:sticky;
+  }
+  #header .container{
+    width:100%;
+    padding: 0 10px;
+    flex-direction: column;
+    background-color:goldenrod;
+    
+  }
+ 
+  header h1{
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 9px;
+  }
+  nav{
+    flex-direction: column;
+    font-size: 14px;
+    column-gap: 3px;
+    text-align: center;
+
+  }
+  nav ul{
+    display:flex;
+    height: 20px;
+    align-items:center;
+    column-gap:15px;
+    padding-right: 30px;
+    margin-bottom: 5px;
+    padding: 5px 5px 5px 0;
+    border:none;
+  }
+
+  .contact .contact-image{
+    width: 15px;
+    height: 15px;
+  }
+
+.contact .contact-image .phone-icon{
+font-size: 10px;
+}
+nav .contact .contact-text{
+  font-size: 12px;
+}
+
+.grand-parent{
   
+  height: auto;
+}
+
+.grand-parent .dimension{
+  flex-direction: column-reverse;
+}
+.parent{
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+  padding:0 30px;
+  row-gap: 20px;
+}
+
+.child-text{
+  
+  width: 100%;
+  padding:20px 0;  
+}
+.grand-parent .parent .child-text .info{
+  text-align: center;
+  width: 100%;
+}
+.grand-parent .parent .child-text .info h1{
+  width: 100%;
+  font-size: 30px;
+  padding-bottom: 10px;
+  
+ }
+
+ .grand-parent .parent .child-image{
+  padding: 20px 0;
+  width:100%;
+  height:50vh;
+ }
+
+ .grand-parent .parent .child-image .service{
+  right: 44;
+ }
+.open{
+  font-size: 15px;
+}
+
+/* Car service channel */
+#car .car-service{
+  width: 100%;
+}
+#car .car-service h1{
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  margin: auto;
+}
+
+#car .car-service .con-serve{
+  width: 100%;
+}
+#car .car-service .con-serve p{
+  width: 80%;
+}
+
+#car .car-service .more-about-text{
+padding: 0;
+}
+#car .parent .car-qoute{
+  width:100%;
+
+}
+#car .parent .car-qoute h1{
+  width: 100%;
+  font-size: 30px;
+}
+form input{
+  width: 100%;
+}
+
+
+/* Process to help */
+
+#help .parent .help-process h1{
+  width: 100%;
+}
+
+#help .parent .help-process .info p{
+  padding:20px 0;
+  width: 100%;
+  text-align: left;
+}
+#help .parent .gbg{
+  padding-bottom: 40px;
+  width: 100%;
+ 
+}
+#help .gbg .get .qoute .through{
+  width: 100%;
+}
+
+
+/* WHAT WE OFFER */
+  
+#offer .content h1{
+  width: 75vw;
+}
+#offer .content .offer-cards .card{
+  height: 100px;
+  width: 100px;
+}
+#offer .content .offer-cards .card img{
+  height: 20px;
+}
+
+
+/* GET IN TOUCH */
+#get-in-touch{
+  height: 50vh;
+}
+#get-in-touch .first-row .left-car .left-car-card .write-up h1{
+  margin-top: 20px;
+  font-size:small;
+}
+#get-in-touch .first-row .left-car .left-car-card .write-up #card-butn{
+  padding: 5px 30px;
+  width: 90%;
+}
+
+#get-in-touch .second-row .context{
+  width: 100%;
+  margin-left: 5px;
+}
+#get-in-touch .second-row .context .one h1{
+  font-size:15px;
+  
+}
+#get-in-touch .second-row .context .one p{
+  font-size:9px;
+  
+}
+}
+
