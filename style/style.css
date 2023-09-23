@@ -10,6 +10,7 @@
     padding:0;
     box-sizing:border-box;
     font-family: 'Manrope', sans-serif;
+    
   }
     
   header{
@@ -453,8 +454,6 @@ background-color: #1E1B1B;
     width:100%;
     padding: 0 10px;
     flex-direction: column;
-    background-color:goldenrod;
-    
   }
  
   header h1{
@@ -465,18 +464,15 @@ background-color: #1E1B1B;
   nav{
     flex-direction: column;
     font-size: 14px;
-    column-gap: 3px;
-    text-align: center;
+    column-gap: 13px;
+    margin-bottom: 5px
 
   }
   nav ul{
     display:flex;
     height: 20px;
-    align-items:center;
     column-gap:15px;
     padding-right: 30px;
-    margin-bottom: 5px;
-    padding: 5px 5px 5px 0;
     border:none;
   }
 
@@ -530,8 +526,11 @@ nav .contact .contact-text{
   height:50vh;
  }
 
- .grand-parent .parent .child-image .service{
-  right: 44;
+ main .parent .child-image .service{
+  left: 0;
+ }
+ main .parent .child-image .rating{
+  right: 0;
  }
 .open{
   font-size: 15px;
@@ -600,7 +599,7 @@ form input{
 }
 #offer .content .offer-cards .card{
   height: 100px;
-  width: 100px;
+  width: 150px;
 }
 #offer .content .offer-cards .card img{
   height: 20px;
@@ -634,3 +633,85 @@ form input{
 }
 }
 
+@media screen and (min-width:425px) and (max-width:778px){
+  #header{
+    height: auto;
+  }
+  #header .container{
+    width:100%;
+    padding: 0 30px;
+    
+  }
+  nav{
+    font-size: 12px;
+    text-align: center;
+  }
+  nav ul{
+    display:flex;
+    align-items:center;
+    column-gap:20px;
+    
+  }
+
+.contact .contact-image .phone-icon{
+font-size: 12px;
+}
+nav .contact .contact-text{
+  padding-top: 5px;
+  font-size: 10px;
+}
+
+.grand-parent .parent .child-text .info h1{
+  width: 100%;
+  font-size: 30px;
+}
+
+/* car service */
+
+#car .car-service h1{
+  width: 60%;
+  padding-top: 3px;
+  font-size: 30px;
+}
+#car .car-service .con-serve{
+  width: 100%;
+}
+#car .car-service .con-serve p{
+  width: 70%;
+}
+
+#car .parent .car-qoute h1{
+  width:100%;
+  font-size: 30px;
+  padding-bottom: 20%;
+}
+form input{
+  width: 100%;
+}
+
+/* Help process */
+
+#help .parent .help-process h1{
+  width: 90%;
+}
+#help .parent .help-process p{
+  width: 85%;
+}
+#help .gbg .get .qoute .through{
+  width: 90%;
+}
+
+/* OFFER CONTENT */
+#offer .content h1{
+  width: 60vw;
+  font-size: 30px;
+}
+#offer .content .offer-cards .card{
+  height: 150px;
+  width: 140px;
+}
+#offer .content .offer-cards .card img{
+  height: 20px;
+}
+
+}
