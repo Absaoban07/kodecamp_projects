@@ -500,7 +500,7 @@ nav .contact .contact-text{
   height: auto;
   width: 100%;
   flex-direction: column;
-  padding:0 30px;
+  padding:0 10px;
   row-gap: 20px;
 }
 
