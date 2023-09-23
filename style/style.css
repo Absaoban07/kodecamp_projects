@@ -10,7 +10,7 @@
     padding:0;
     box-sizing:border-box;
     font-family: 'Manrope', sans-serif;
-    
+    border: 1px solid red;
   }
     
   header{
@@ -599,7 +599,7 @@ form input{
 }
 #offer .content .offer-cards .card{
   height: 100px;
-  width: 150px;
+  width: 100px;
 }
 #offer .content .offer-cards .card img{
   height: 20px;
