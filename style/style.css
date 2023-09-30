@@ -619,12 +619,6 @@ form input{
   /* height: 39vh; */
   width: 100%;
 }
-/* #get-in-touch .first-row .left-car .left-car-card{
-  width: 55%;
-}
-#get-in-touch .first-row .left-car .left-car-card .write-up h1{
-  font-size: large; 
-} */
 
 #get-in-touch .first-row .right-car{
   width: 100%;
@@ -651,34 +645,9 @@ form input{
 }
 
 
-
-
-
-
-
-
-
-
-/* #get-in-touch .first-row .left-car .left-car-card .write-up #card-butn{
-  padding: 5px 30px;
-  width: 90%;
 }
 
-#get-in-touch .second-row .context{
-  width: 100%;
-  margin-left: 5px;
-}
-#get-in-touch .second-row .context .one h1{
-  font-size:15px;
-  
-}
-#get-in-touch .second-row .context .one p{
-  font-size:9px;
-  
-} */
-}
-
-@media screen and (min-width:425px) and (max-width:778px){
+@media screen and (min-width:425px) and (max-width:840px){
   #header{
     height: auto;
   }
@@ -689,76 +658,103 @@ form input{
   }
   nav{
    
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
   }
   nav ul{
     
     display:flex;
     align-items:center;
-    column-gap:20px;
+    column-gap:15px;
     
   }
 
-.contact .contact-image .phone-icon{
+/* .contact .contact-image .phone-icon{
 font-size: 12px;
-}
+} */
 nav .contact .contact-text{
   padding-top: 5px;
-  font-size: 10px;
+  font-size: 14px;
+}
+
+
+
+.butn{
+  font-size: 14px;
 }
 
 .grand-parent .parent .child-text .info h1{
   width: 100%;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 /* car service */
 
 #car .car-service h1{
-  width: 60%;
-  padding-top: 3px;
   font-size: 30px;
 }
 #car .car-service .con-serve{
   width: 100%;
+  font-size: 20px;
 }
 #car .car-service .con-serve p{
   width: 70%;
+  font-size: 14px;
 }
 
 #car .parent .car-qoute h1{
   width:100%;
   font-size: 30px;
-  padding-bottom: 20%;
+  padding-bottom: 10%;
 }
 form input{
   width: 100%;
+  height:50px
 }
 
 /* Help process */
 
 #help .parent .help-process h1{
-  width: 90%;
+  width: 100%;
 }
 #help .parent .help-process p{
   width: 85%;
+  font-size: 16px;
 }
-#help .gbg .get .qoute .through{
+
+#help .gbg{
+ justify-content: center;
+}
+#help .gbg .get .qoute h4{
+ font-size: 24px;
+ 
+}
+
+#help .gbg .get .qoute .through {
   width: 90%;
 }
 
-/* OFFER CONTENT */
-#offer .content h1{
-  width: 60vw;
-  font-size: 30px;
-}
-#offer .content .offer-cards .card{
-  height: 150px;
-  width: 140px;
-}
-#offer .content .offer-cards .card img{
-  height: 20px;
+#help .gbg .get .qoute .through p{
+  font-size: 16px;
+  padding-bottom: 20px;
+  
 }
 
+
+/* OFFER CONTENT */
+#offer .content h1{
+  font-size: 40px;
+  width: 95%;
+}
+#offer .content .offer-cards .card{
+  height: 200px;
+  width: 150px;
+}
+
+#offer .content .offer-cards .card h6{
+  font-size: 14px;
+}
+#offer .content .learn h6{
+  font-size: 14px;
+}
 }
