@@ -347,7 +347,7 @@ margin-top: 10px;
 
 #offer .content .offer-cards .card{
   background-color: white;
-  height: 150px;
+  height: 150px  ;
   width: 220px;
   display: flex;
     flex-direction: column;
@@ -444,8 +444,13 @@ background-color: #1E1B1B;
 
 }
 
+/* for mini-mobile */
+
+
+
+
 /*for mobile */
- @media screen  and (min-width: 310px) and (max-width: 430px)
+ @media screen  and (min-width: 320px) and (max-width: 430px)
 {
   #header{
     position:sticky;
@@ -585,6 +590,7 @@ form input{
 #help .parent .gbg{
   padding-bottom: 40px;
   width: 100%;
+  
  
 }
 #help .gbg .get .qoute .through{
@@ -647,7 +653,7 @@ form input{
 
 }
 
-@media screen and (min-width:425px) and (max-width:840px){
+@media screen and (min-width:430px) and (max-width:885px){
   #header{
     height: auto;
   }
@@ -715,7 +721,10 @@ form input{
 /* Help process */
 
 #help .parent .help-process h1{
-  width: 100%;
+  width: 95%;
+}
+#help .parent .help-process{
+  height: 75%;
 }
 #help .parent .help-process p{
   width: 85%;
@@ -723,7 +732,7 @@ form input{
 }
 
 #help .gbg{
- justify-content: center;
+height: 70%;
 }
 #help .gbg .get .qoute h4{
  font-size: 24px;
@@ -748,7 +757,7 @@ form input{
 }
 #offer .content .offer-cards .card{
   height: 200px;
-  width: 150px;
+  width: 145px;
 }
 
 #offer .content .offer-cards .card h6{
