@@ -650,7 +650,7 @@ form input{
 
 }
 
-@media screen and (min-width:430px) and (max-width:850px){
+@media screen and (min-width:430px) and (max-width:885px){
   #header{
     height: auto;
   }
@@ -718,10 +718,10 @@ form input{
 /* Help process */
 
 #help .parent .help-process h1{
-  width: 95%;
+  width:95%;
 }
 #help .parent .help-process{
-  
+  height: 80%;
 }
 #help .parent .help-process p{
   width: 85%;
