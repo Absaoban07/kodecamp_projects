@@ -340,7 +340,6 @@ flex-wrap: wrap;
 gap: 5px;
 justify-content: center;
 margin-top: 10px;
-/* padding-top: 20px; */
 
 
 }
@@ -351,7 +350,7 @@ margin-top: 10px;
   width: 220px;
   display: flex;
     flex-direction: column;
-    justify-content: center; /* Center horizontally */
+    justify-content: center;
     align-items: center;
     gap: 20px;
 }
@@ -443,8 +442,6 @@ background-color: #1E1B1B;
   color: #661CE7;
 
 }
-
-/* for mini-mobile */
 
 
 
@@ -604,8 +601,8 @@ form input{
   font-size: 20px;
 }
 #offer .content .offer-cards .card{
-  height: 100px;
-  width: 80px;
+  height: 200px;
+  width: 150px;
 }
 #offer .content .offer-cards .card img{
   height: 20px;
@@ -653,7 +650,7 @@ form input{
 
 }
 
-@media screen and (min-width:430px) and (max-width:885px){
+@media screen and (min-width:430px) and (max-width:850px){
   #header{
     height: auto;
   }
@@ -724,11 +721,11 @@ form input{
   width: 95%;
 }
 #help .parent .help-process{
-  height: 75%;
+  
 }
 #help .parent .help-process p{
   width: 85%;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 #help .gbg{
