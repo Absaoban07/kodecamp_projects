@@ -84,7 +84,7 @@
 
 /*global  styling  */
 .grand-parent{
-    height: 100vh;
+   height: 100vh;
     width: 100%;
     margin: auto;
     display: flex;
@@ -105,7 +105,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
     
 }
 
@@ -263,7 +263,7 @@ form input{
 /* process to help styling */
 
 #help .parent .help-process{
-  height: 90%;
+ 
 }
 #help .parent .help-process h1{
   width:80%;
@@ -339,6 +339,7 @@ display: flex;
 flex-wrap: wrap;
 gap: 5px;
 justify-content: center;
+align-items: center;
 margin-top: 10px;
 
 
@@ -650,7 +651,7 @@ form input{
 
 }
 
-@media screen and (min-width:430px) and (max-width:885px){
+@media screen and (min-width:432px) and (max-width:885px){
   #header{
     height: auto;
   }
