@@ -218,7 +218,7 @@ main .parent .child-image .rating{
  }
  #car .car-service .more-about-text{
   display: flex;
-  gap: 15px;
+  gap: 4px;
   padding: 23px 0 0 30px;
  }
 
@@ -263,6 +263,7 @@ form input{
 /* process to help styling */
 
 #help .parent .help-process{
+  height: 80%;
  
 }
 #help .parent .help-process h1{
